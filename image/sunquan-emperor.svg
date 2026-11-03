@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="三国孙权在武昌称帝的场景插画">
+  <defs>
+    <linearGradient id="h-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B2A6B"/>
+      <stop offset="58%" stop-color="#7A5CFF"/>
+      <stop offset="100%" stop-color="#FF8A2B"/>
+    </linearGradient>
+    <linearGradient id="h-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE37A"/>
+      <stop offset="100%" stop-color="#FF8A2B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#h-bg)"/>
+
+  <!-- 光环 -->
+  <circle cx="320" cy="196" r="120" fill="#FFC629" opacity=".16"/>
+  <circle cx="320" cy="196" r="82" fill="#FFC629" opacity=".16"/>
+
+  <!-- 星点 -->
+  <g fill="#FFFFFF" opacity=".75">
+    <circle cx="60" cy="48" r="2.6"/><circle cx="140" cy="92" r="2"/>
+    <circle cx="500" cy="52" r="2.4"/><circle cx="580" cy="96" r="2"/>
+    <circle cx="240" cy="40" r="2"/><circle cx="420" cy="86" r="2.2"/>
+  </g>
+
+  <!-- 郊坛（三层台基） -->
+  <g transform="translate(320,300)">
+    <rect x="-186" y="46" width="372" height="30" rx="6" fill="#8B6A4B"/>
+    <rect x="-186" y="46" width="372" height="10" fill="#A9835E"/>
+    <rect x="-142" y="14" width="284" height="32" rx="6" fill="#A9835E"/>
+    <rect x="-142" y="14" width="284" height="10" fill="#C9A279"/>
+    <rect x="-96" y="-16" width="192" height="30" rx="6" fill="#C9A279"/>
+    <rect x="-96" y="-16" width="192" height="9" fill="#E0BE96"/>
+    <g fill="#6B4E33" opacity=".5">
+      <rect x="-170" y="58" width="340" height="5"/>
+      <rect x="-126" y="26" width="252" height="5"/>
+    </g>
+  </g>
+
+  <!-- 旗帜 -->
+  <g transform="translate(116,142)">
+    <rect x="0" y="0" width="7" height="180" rx="3.5" fill="#E0BE96"/>
+    <path d="M7 6 L92 6 L78 44 L92 82 L7 82 Z" fill="#E23B3B"/>
+    <text x="30" y="58" font-family="KaiTi,STKaiti,Microsoft YaHei,sans-serif" font-size="42" font-weight="bold" fill="#FFE37A">吴</text>
+    <circle cx="3.5" cy="-6" r="8" fill="url(#h-gold)"/>
+  </g>
+  <g transform="translate(524,142)">
+    <rect x="0" y="0" width="7" height="180" rx="3.5" fill="#E0BE96"/>
+    <path d="M0 6 L-85 6 L-71 44 L-85 82 L0 82 Z" fill="#12A7E8"/>
+    <text x="-64" y="58" font-family="KaiTi,STKaiti,Microsoft YaHei,sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">武昌</text>
+    <circle cx="3.5" cy="-6" r="8" fill="url(#h-gold)"/>
+  </g>
+
+  <!-- 孙权（简化人物） -->
+  <g transform="translate(320,196)">
+    <!-- 披风 -->
+    <path d="M-72 108 Q-96 26 -58 -18 L58 -18 Q96 26 72 108 Z" fill="#E23B3B"/>
+    <path d="M-72 108 Q-96 26 -58 -18 L-30 -18 Q-52 30 -40 108 Z" fill="#B62A2A"/>
+    <!-- 袍身 -->
+    <path d="M-44 108 Q-52 22 -30 -6 L30 -6 Q52 22 44 108 Z" fill="#FFC629"/>
+    <path d="M-14 -6 L14 -6 L18 108 L-18 108 Z" fill="#FF8A2B" opacity=".55"/>
+    <!-- 腰带 -->
+    <rect x="-46" y="42" width="92" height="16" rx="6" fill="#7A5CFF"/>
+    <circle cx="0" cy="50" r="9" fill="#FFE37A"/>
+    <!-- 手臂 -->
+    <path d="M-40 8 Q-70 30 -74 66" stroke="#FFC629" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M40 8 Q70 30 74 66" stroke="#FFC629" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <!-- 剑 -->
+    <g transform="translate(74,66) rotate(28)">
+      <rect x="-4" y="-70" width="8" height="72" rx="3" fill="#DDE7F2"/>
+      <rect x="-16" y="0" width="32" height="8" rx="4" fill="#FFC629"/>
+      <rect x="-5" y="8" width="10" height="24" rx="4" fill="#8B4A2B"/>
+    </g>
+    <!-- 头 -->
+    <circle cx="0" cy="-40" r="30" fill="#FFDCC0"/>
+    <!-- 冕冠 -->
+    <path d="M-34 -56 L34 -56 L28 -76 L-28 -76 Z" fill="#152238"/>
+    <rect x="-40" y="-60" width="80" height="9" rx="4" fill="#FFC629"/>
+    <g stroke="#FFE37A" stroke-width="3">
+      <line x1="-24" y1="-51" x2="-24" y2="-38"/>
+      <line x1="0" y1="-51" x2="0" y2="-36"/>
+      <line x1="24" y1="-51" x2="24" y2="-38"/>
+    </g>
+    <g fill="#FF5C8A"><circle cx="-24" cy="-36" r="4"/><circle cx="0" cy="-34" r="4"/><circle cx="24" cy="-36" r="4"/></g>
+    <!-- 五官 -->
+    <g fill="#152238">
+      <ellipse cx="-11" cy="-42" rx="3.4" ry="4.4"/>
+      <ellipse cx="11" cy="-42" rx="3.4" ry="4.4"/>
+    </g>
+    <path d="M-8 -28 q8 7 16 0" stroke="#C2705A" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <!-- 胡须 -->
+    <path d="M-18 -22 q18 22 36 0 q-6 26 -18 26 q-12 0 -18 -26 Z" fill="#8B4A2B" opacity=".85"/>
+  </g>
+
+  <!-- 祥云 -->
+  <g fill="#FFFFFF" opacity=".3">
+    <path d="M40 300 q14 -22 38 -10 q10 -18 32 -8 q6 16 -12 22 l-46 0 q-16 -2 -12 -4 Z"/>
+    <path d="M500 322 q14 -22 38 -10 q10 -18 32 -8 q6 16 -12 22 l-46 0 q-16 -2 -12 -4 Z"/>
+  </g>
+
+  <!-- 年号文字 -->
+  <g transform="translate(320,388)">
+    <text x="0" y="0" text-anchor="middle" font-family="KaiTi,STKaiti,Microsoft YaHei,sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF" opacity=".9">公元 229 年 · 孙权于武昌筑坛称帝</text>
+  </g>
+</svg>

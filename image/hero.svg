@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="鄂州主视觉插画：长江之上观音阁与起飞的货机">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7A5CFF"/>
+      <stop offset="46%" stop-color="#12A7E8"/>
+      <stop offset="100%" stop-color="#8FE3FF"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12A7E8"/>
+      <stop offset="100%" stop-color="#0B6FA8"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#18C08A"/>
+      <stop offset="100%" stop-color="#0E8F66"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE37A"/>
+      <stop offset="100%" stop-color="#FF8A2B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 天空 -->
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="628" cy="132" r="62" fill="url(#sun)"/>
+  <circle cx="628" cy="132" r="86" fill="#FFC629" opacity=".18"/>
+
+  <!-- 云 -->
+  <g fill="#FFFFFF" opacity=".82">
+    <ellipse cx="150" cy="108" rx="62" ry="24"/>
+    <ellipse cx="196" cy="96" rx="42" ry="26"/>
+    <ellipse cx="112" cy="98" rx="34" ry="20"/>
+    <ellipse cx="430" cy="72" rx="52" ry="20"/>
+    <ellipse cx="466" cy="62" rx="34" ry="20"/>
+  </g>
+
+  <!-- 货机 -->
+  <g transform="translate(258,168) rotate(-12)">
+    <path d="M0 0 L150 0 Q176 0 176 12 Q176 24 150 24 L0 24 Q-16 12 -16 12 Q-16 12 0 0 Z" fill="#FFFFFF"/>
+    <path d="M52 2 L28 -40 L58 -40 L92 2 Z" fill="#FF5C8A"/>
+    <path d="M52 22 L34 54 L60 54 L86 22 Z" fill="#FF8A2B"/>
+    <path d="M138 4 L168 -14 L176 -8 L156 12 Z" fill="#7A5CFF"/>
+    <circle cx="150" cy="12" r="5" fill="#12A7E8"/>
+    <g fill="#12A7E8"><rect x="14" y="6" width="14" height="10" rx="3"/><rect x="34" y="6" width="14" height="10" rx="3"/></g>
+    <g stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".7">
+      <line x1="-30" y1="12" x2="-76" y2="18"/>
+      <line x1="-30" y1="26" x2="-66" y2="34"/>
+    </g>
+  </g>
+
+  <!-- 远山（西山） -->
+  <path d="M-10 372 Q90 268 186 340 Q244 282 322 344 Q392 300 452 356 L452 400 L-10 400 Z" fill="url(#hill)" opacity=".92"/>
+  <path d="M400 372 Q500 292 592 352 Q672 300 810 358 L810 404 L400 404 Z" fill="#0E8F66" opacity=".72"/>
+
+  <!-- 山上亭阁 -->
+  <g transform="translate(182,286)">
+    <rect x="-4" y="30" width="52" height="26" rx="3" fill="#FFFFFF"/>
+    <path d="M-20 32 L22 8 L64 32 Z" fill="#FF5C8A"/>
+    <path d="M-14 12 L22 -8 L58 12 Z" fill="#FF8A2B"/>
+    <rect x="18" y="-26" width="8" height="20" fill="#7A5CFF"/>
+    <circle cx="22" cy="-30" r="6" fill="#FFC629"/>
+  </g>
+
+  <!-- 城市天际线 -->
+  <g fill="#0B4E7A" opacity=".55">
+    <rect x="486" y="300" width="30" height="100"/>
+    <rect x="522" y="272" width="24" height="128"/>
+    <rect x="552" y="316" width="34" height="84"/>
+    <rect x="592" y="288" width="22" height="112"/>
+    <rect x="620" y="330" width="40" height="70"/>
+    <rect x="666" y="304" width="26" height="96"/>
+    <rect x="698" y="336" width="34" height="64"/>
+  </g>
+
+  <!-- 长江 -->
+  <rect x="-10" y="392" width="820" height="218" fill="url(#river)"/>
+  <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity=".34">
+    <line x1="40" y1="440" x2="180" y2="440"/>
+    <line x1="240" y1="478" x2="400" y2="478"/>
+    <line x1="500" y1="446" x2="620" y2="446"/>
+    <line x1="620" y1="512" x2="760" y2="512"/>
+    <line x1="80" y1="522" x2="220" y2="522"/>
+    <line x1="300" y1="556" x2="440" y2="556"/>
+  </g>
+
+  <!-- 龙蟠矶礁石 -->
+  <path d="M268 470 Q300 430 356 428 Q424 426 456 468 Q470 492 448 500 L282 500 Q256 492 268 470 Z" fill="#8B6A4B"/>
+  <path d="M290 466 Q318 440 360 438 Q410 436 436 464 Z" fill="#A9835E"/>
+
+  <!-- 观音阁 -->
+  <g transform="translate(296,318)">
+    <rect x="6" y="98" width="112" height="52" rx="4" fill="#FFFFFF"/>
+    <rect x="6" y="98" width="112" height="12" fill="#F2E4D2"/>
+    <g fill="#3A2B22"><rect x="22" y="118" width="16" height="32" rx="3"/><rect x="54" y="118" width="16" height="32" rx="3"/><rect x="86" y="118" width="16" height="32" rx="3"/></g>
+    <path d="M-14 100 L62 62 L138 100 Z" fill="#FF4D4D"/>
+    <path d="M-4 100 L62 72 L128 100 Z" fill="#C9302C" opacity=".55"/>
+    <rect x="22" y="42" width="80" height="34" rx="3" fill="#FFFFFF"/>
+    <path d="M6 44 L62 16 L118 44 Z" fill="#FF8A2B"/>
+    <g fill="#3A2B22"><rect x="38" y="54" width="14" height="22" rx="2"/><rect x="72" y="54" width="14" height="22" rx="2"/></g>
+    <rect x="58" y="-8" width="8" height="26" fill="#7A5CFF"/>
+    <circle cx="62" cy="-14" r="8" fill="#FFC629"/>
+    <path d="M-22 100 Q-34 96 -30 88" stroke="#FF4D4D" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M146 100 Q158 96 154 88" stroke="#FF4D4D" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 阁前倒影 -->
+  <g opacity=".22" transform="translate(0,1000) scale(1,-1)">
+    <rect x="302" y="500" width="112" height="46" fill="#FFFFFF"/>
+  </g>
+
+  <!-- 小船 -->
+  <g transform="translate(566,502)">
+    <path d="M0 0 L96 0 L82 22 L14 22 Z" fill="#FFC629"/>
+    <rect x="34" y="-26" width="6" height="26" fill="#8B6A4B"/>
+    <path d="M40 -24 L74 -4 L40 -4 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- 前景芦苇 -->
+  <g stroke="#0E8F66" stroke-width="6" stroke-linecap="round" opacity=".85">
+    <path d="M40 600 Q34 552 52 520" fill="none"/>
+    <path d="M74 600 Q80 548 62 512" fill="none"/>
+    <path d="M736 600 Q742 556 724 524" fill="none"/>
+    <path d="M772 600 Q766 550 784 518" fill="none"/>
+  </g>
+</svg>

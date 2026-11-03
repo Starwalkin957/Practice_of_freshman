@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="鄂州在湖北的区位示意图，紧邻武汉，长江穿城">
+  <defs>
+    <linearGradient id="m-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2FBFF"/>
+      <stop offset="100%" stop-color="#FFF6E8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="420" fill="url(#m-bg)"/>
+
+  <!-- 网格 -->
+  <g stroke="#DCE8F2" stroke-width="1.5">
+    <line x1="0" y1="70" x2="640" y2="70"/><line x1="0" y1="140" x2="640" y2="140"/>
+    <line x1="0" y1="210" x2="640" y2="210"/><line x1="0" y1="280" x2="640" y2="280"/>
+    <line x1="0" y1="350" x2="640" y2="350"/>
+    <line x1="80" y1="0" x2="80" y2="420"/><line x1="160" y1="0" x2="160" y2="420"/>
+    <line x1="240" y1="0" x2="240" y2="420"/><line x1="320" y1="0" x2="320" y2="420"/>
+    <line x1="400" y1="0" x2="400" y2="420"/><line x1="480" y1="0" x2="480" y2="420"/>
+    <line x1="560" y1="0" x2="560" y2="420"/>
+  </g>
+
+  <!-- 长江（自西向东，略呈弧线） -->
+  <path d="M-10 188 Q120 168 232 200 Q330 228 430 196 Q540 160 650 194 L650 236 Q540 202 432 238 Q330 272 230 242 Q120 210 -10 230 Z" fill="#12A7E8" opacity=".88"/>
+  <path d="M-10 196 Q120 176 232 208 Q330 236 430 204 Q540 168 650 202" stroke="#8FD6FF" stroke-width="6" fill="none" stroke-linecap="round" opacity=".8"/>
+  <text x="34" y="182" font-family="Microsoft YaHei,sans-serif" font-size="17" font-weight="bold" fill="#0C6FA8">长 江</text>
+
+  <!-- 梁子湖 -->
+  <path d="M352 288 Q392 258 448 272 Q502 286 496 326 Q488 366 430 372 Q366 378 348 340 Q338 310 352 288 Z" fill="#18C08A" opacity=".8"/>
+  <path d="M368 300 Q400 280 440 290 Q478 300 474 328 Q468 356 424 360 Q378 364 366 336 Z" fill="#3FDCA8" opacity=".65"/>
+  <text x="386" y="330" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="bold" fill="#0A5C42">梁子湖</text>
+
+  <!-- 武汉（西侧） -->
+  <g transform="translate(116,214)">
+    <circle r="44" fill="#7A5CFF" opacity=".16"/>
+    <circle r="26" fill="#7A5CFF" opacity=".28"/>
+    <circle r="11" fill="#7A5CFF"/>
+    <text x="-30" y="66" font-family="Microsoft YaHei,sans-serif" font-size="19" font-weight="bold" fill="#4A2FC0">武汉市</text>
+  </g>
+
+  <!-- 鄂州（中心，高亮） -->
+  <g transform="translate(300,214)">
+    <circle r="62" fill="#FF5C8A" opacity=".14"/>
+    <circle r="42" fill="#FF5C8A" opacity=".26"/>
+    <circle r="18" fill="#FF5C8A"/>
+    <circle r="18" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M0 -34 L0 -50 M0 34 L0 50 M-34 0 L-50 0 M34 0 L50 0" stroke="#FF5C8A" stroke-width="4" stroke-linecap="round"/>
+    <text x="-32" y="-58" font-family="Microsoft YaHei,sans-serif" font-size="23" font-weight="bold" fill="#C2255A">鄂州市</text>
+    <text x="-58" y="76" font-family="Microsoft YaHei,sans-serif" font-size="14" font-weight="bold" fill="#8494AA">湖北之根 · 武昌之源</text>
+  </g>
+
+  <!-- 黄石（东南） -->
+  <g transform="translate(470,262)">
+    <circle r="30" fill="#FF8A2B" opacity=".2"/>
+    <circle r="9" fill="#FF8A2B"/>
+    <text x="-24" y="48" font-family="Microsoft YaHei,sans-serif" font-size="17" font-weight="bold" fill="#B25A08">黄石市</text>
+  </g>
+
+  <!-- 黄冈（北岸） -->
+  <g transform="translate(398,124)">
+    <circle r="30" fill="#18C08A" opacity=".22"/>
+    <circle r="9" fill="#0E8F66"/>
+    <text x="-24" y="-20" font-family="Microsoft YaHei,sans-serif" font-size="17" font-weight="bold" fill="#0A6B4C">黄冈市</text>
+  </g>
+
+  <!-- 连线 -->
+  <g stroke="#FF5C8A" stroke-width="3.5" stroke-dasharray="9 7" opacity=".7" fill="none">
+    <path d="M142 214 L256 214"/>
+    <path d="M336 232 L452 258"/>
+    <path d="M318 196 L388 138"/>
+  </g>
+
+  <!-- 花湖机场标记 -->
+  <g transform="translate(356,240)">
+    <path d="M0 -12 L22 0 L0 12 L6 0 Z" fill="#7A5CFF"/>
+    <text x="26" y="6" font-family="Microsoft YaHei,sans-serif" font-size="14" font-weight="bold" fill="#5638D8">花湖国际机场</text>
+  </g>
+
+  <!-- 图例 -->
+  <g transform="translate(34,344)">
+    <rect x="-14" y="-22" width="216" height="72" rx="12" fill="#FFFFFF" opacity=".92"/>
+    <circle cx="6" cy="-4" r="7" fill="#FF5C8A"/>
+    <text x="22" y="1" font-family="Microsoft YaHei,sans-serif" font-size="13" fill="#4E6079">本市（鄂州）</text>
+    <circle cx="6" cy="22" r="7" fill="#7A5CFF"/>
+    <text x="22" y="27" font-family="Microsoft YaHei,sans-serif" font-size="13" fill="#4E6079">周边城市</text>
+    <rect x="112" y="-9" width="22" height="9" rx="4" fill="#12A7E8"/>
+    <text x="140" y="0" font-family="Microsoft YaHei,sans-serif" font-size="13" fill="#4E6079">长江</text>
+    <rect x="112" y="17" width="22" height="9" rx="4" fill="#18C08A"/>
+    <text x="140" y="26" font-family="Microsoft YaHei,sans-serif" font-size="13" fill="#4E6079">湖泊</text>
+  </g>
+
+  <!-- 指北针 -->
+  <g transform="translate(590,58)">
+    <circle r="26" fill="#FFFFFF" opacity=".9"/>
+    <path d="M0 -20 L9 6 L0 0 L-9 6 Z" fill="#FF4D4D"/>
+    <path d="M0 20 L9 -6 L0 0 L-9 -6 Z" fill="#8494AA"/>
+    <text x="-6" y="-26" font-family="Microsoft YaHei,sans-serif" font-size="13" font-weight="bold" fill="#152238">N</text>
+  </g>
+</svg>

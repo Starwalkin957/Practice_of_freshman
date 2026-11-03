@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="鄂州花湖国际机场货运枢纽插画">
+  <defs>
+    <linearGradient id="a-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B1F4B"/>
+      <stop offset="56%" stop-color="#4A3B9E"/>
+      <stop offset="100%" stop-color="#FF7E5F"/>
+    </linearGradient>
+    <linearGradient id="a-plane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D8E2F0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#a-sky)"/>
+
+  <!-- 星点 -->
+  <g fill="#FFFFFF" opacity=".8">
+    <circle cx="70" cy="52" r="2.6"/><circle cx="140" cy="94" r="2"/>
+    <circle cx="228" cy="44" r="2.4"/><circle cx="330" cy="86" r="2"/>
+    <circle cx="452" cy="48" r="2.6"/><circle cx="556" cy="106" r="2"/>
+    <circle cx="600" cy="42" r="2.2"/><circle cx="24" cy="126" r="2"/>
+  </g>
+  <circle cx="520" cy="70" r="34" fill="#FFE37A" opacity=".92"/>
+
+  <!-- 跑道透视 -->
+  <path d="M232 400 L282 214 L358 214 L408 400 Z" fill="#2B2F52"/>
+  <path d="M244 400 L288 220 L352 220 L396 400 Z" fill="#3A3F6B"/>
+  <g fill="#FFC629">
+    <rect x="314" y="232" width="12" height="24" rx="3"/>
+    <rect x="312" y="272" width="15" height="30" rx="3"/>
+    <rect x="310" y="320" width="18" height="36" rx="4"/>
+    <rect x="307" y="374" width="22" height="26" rx="4"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="5" opacity=".55">
+    <line x1="250" y1="392" x2="288" y2="232"/>
+    <line x1="390" y1="392" x2="352" y2="232"/>
+  </g>
+
+  <!-- 跑道灯 -->
+  <g fill="#18C08A">
+    <circle cx="252" cy="380" r="5"/><circle cx="262" cy="342" r="4.6"/>
+    <circle cx="270" cy="306" r="4.2"/><circle cx="278" cy="272" r="3.8"/>
+  </g>
+  <g fill="#FF5C8A">
+    <circle cx="388" cy="380" r="5"/><circle cx="378" cy="342" r="4.6"/>
+    <circle cx="370" cy="306" r="4.2"/><circle cx="362" cy="272" r="3.8"/>
+  </g>
+
+  <!-- 转运中心（工字形仓库） -->
+  <g transform="translate(56,262)">
+    <rect x="0" y="34" width="150" height="56" rx="6" fill="#4E5686"/>
+    <path d="M-8 36 L75 6 L158 36 Z" fill="#FF8A2B"/>
+    <g fill="#FFE37A" opacity=".9">
+      <rect x="14" y="52" width="20" height="18" rx="3"/>
+      <rect x="44" y="52" width="20" height="18" rx="3"/>
+      <rect x="74" y="52" width="20" height="18" rx="3"/>
+      <rect x="104" y="52" width="20" height="18" rx="3"/>
+    </g>
+    <rect x="60" y="76" width="30" height="14" rx="3" fill="#2B2F52"/>
+  </g>
+
+  <!-- 控制塔 -->
+  <g transform="translate(470,196)">
+    <rect x="18" y="34" width="16" height="112" rx="4" fill="#4E5686"/>
+    <path d="M0 34 L52 34 L44 62 L8 62 Z" fill="#8FD6FF"/>
+    <path d="M-4 34 L56 34 L50 22 L2 22 Z" fill="#FF5C8A"/>
+    <rect x="22" y="6" width="8" height="18" fill="#C6D2E4"/>
+    <circle cx="26" cy="2" r="5" fill="#FFC629"/>
+    <g stroke="#8FD6FF" stroke-width="3" opacity=".7">
+      <line x1="10" y1="40" x2="10" y2="56"/><line x1="22" y1="40" x2="22" y2="56"/>
+      <line x1="34" y1="40" x2="34" y2="56"/>
+    </g>
+  </g>
+
+  <!-- 起飞的货机 -->
+  <g transform="translate(238,138) rotate(-20)">
+    <path d="M0 0 L172 0 Q204 0 204 15 Q204 30 172 30 L0 30 Q-20 15 -20 15 Q-20 15 0 0 Z" fill="url(#a-plane)"/>
+    <path d="M62 2 L30 -54 L68 -54 L112 2 Z" fill="#FF5C8A"/>
+    <path d="M62 28 L40 70 L74 70 L106 28 Z" fill="#FF8A2B"/>
+    <path d="M158 5 L196 -18 L206 -10 L180 15 Z" fill="#7A5CFF"/>
+    <circle cx="176" cy="15" r="6" fill="#12A7E8"/>
+    <g fill="#12A7E8"><rect x="16" y="8" width="16" height="12" rx="3"/><rect x="40" y="8" width="16" height="12" rx="3"/><rect x="64" y="8" width="16" height="12" rx="3"/></g>
+    <g stroke="#FFE37A" stroke-width="5" stroke-linecap="round" opacity=".85">
+      <line x1="-32" y1="15" x2="-86" y2="22"/>
+      <line x1="-32" y1="30" x2="-76" y2="40"/>
+    </g>
+  </g>
+
+  <!-- 地面货机 -->
+  <g transform="translate(560,330) scale(.62)">
+    <path d="M0 0 L150 0 Q176 0 176 13 Q176 26 150 26 L0 26 Q-16 13 -16 13 Q-16 13 0 0 Z" fill="#E8EEF8"/>
+    <path d="M52 2 L28 -36 L58 -36 L90 2 Z" fill="#18C08A"/>
+    <path d="M52 24 L34 50 L60 50 L86 24 Z" fill="#12A7E8"/>
+    <circle cx="40" cy="34" r="9" fill="#2B2F52"/>
+    <circle cx="120" cy="32" r="9" fill="#2B2F52"/>
+  </g>
+
+  <!-- 货箱 -->
+  <g transform="translate(228,330)">
+    <rect x="0" y="16" width="44" height="34" rx="5" fill="#FFC629"/>
+    <rect x="48" y="24" width="38" height="26" rx="5" fill="#18C08A"/>
+    <rect x="18" y="-8" width="40" height="26" rx="5" fill="#FF5C8A"/>
+    <g stroke="#FFFFFF" stroke-width="4" opacity=".7">
+      <line x1="4" y1="32" x2="40" y2="32"/>
+      <line x1="24" y1="4" x2="52" y2="4"/>
+    </g>
+  </g>
+</svg>

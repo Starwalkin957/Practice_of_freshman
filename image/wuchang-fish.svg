@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="清蒸武昌鱼插画">
+  <defs>
+    <linearGradient id="f-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E7FBF2"/>
+      <stop offset="100%" stop-color="#D6F0FF"/>
+    </linearGradient>
+    <linearGradient id="f-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FD6FF"/>
+      <stop offset="52%" stop-color="#4FB8EE"/>
+      <stop offset="100%" stop-color="#FFD9A8"/>
+    </linearGradient>
+    <linearGradient id="f-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E9EFF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#f-bg)"/>
+  <g stroke="#12A7E8" stroke-width="5" stroke-linecap="round" opacity=".22">
+    <path d="M40 70 q30 -20 60 0 t60 0" fill="none"/>
+    <path d="M470 320 q30 -20 60 0 t60 0" fill="none"/>
+    <path d="M500 66 q24 -16 48 0" fill="none"/>
+  </g>
+
+  <!-- 盘子 -->
+  <ellipse cx="320" cy="266" rx="248" ry="72" fill="#CBD8E6" opacity=".5"/>
+  <ellipse cx="320" cy="256" rx="242" ry="68" fill="url(#f-plate)"/>
+  <ellipse cx="320" cy="252" rx="206" ry="52" fill="#F4F8FC"/>
+  <ellipse cx="320" cy="256" rx="200" ry="46" fill="#FFF6D9"/>
+
+  <!-- 鱼 -->
+  <g transform="translate(320,226)">
+    <!-- 尾鳍 -->
+    <path d="M126 6 Q188 -44 206 -12 Q188 22 206 44 Q176 66 126 26 Z" fill="#2F9FD8"/>
+    <path d="M140 8 Q182 -26 194 -8 Q182 12 194 28 Q170 42 140 22 Z" fill="#5CC0F0" opacity=".8"/>
+    <!-- 身体 -->
+    <path d="M-186 12 Q-140 -58 -34 -62 Q76 -66 132 6 Q76 74 -34 70 Q-140 66 -186 12 Z" fill="url(#f-body)"/>
+    <!-- 背鳍 -->
+    <path d="M-40 -60 Q4 -104 60 -56 Q10 -50 -40 -60 Z" fill="#2F9FD8"/>
+    <!-- 腹鳍 -->
+    <path d="M-16 62 Q6 96 44 66 Q10 62 -16 62 Z" fill="#FF8A2B" opacity=".85"/>
+    <!-- 胸鳍 -->
+    <path d="M-92 26 Q-104 66 -60 62 Q-70 40 -92 26 Z" fill="#FF8A2B" opacity=".9"/>
+    <!-- 鳞纹 -->
+    <g stroke="#FFFFFF" stroke-width="4" fill="none" opacity=".5" stroke-linecap="round">
+      <path d="M-70 -34 q22 34 0 68"/>
+      <path d="M-26 -46 q26 46 0 92"/>
+      <path d="M20 -46 q26 46 0 92"/>
+      <path d="M66 -34 q22 34 0 68"/>
+    </g>
+    <!-- 鳃 -->
+    <path d="M-104 -40 Q-84 12 -104 62" stroke="#1E7FB4" stroke-width="6" fill="none" stroke-linecap="round" opacity=".65"/>
+    <!-- 眼 -->
+    <circle cx="-146" cy="-6" r="15" fill="#FFFFFF"/>
+    <circle cx="-146" cy="-6" r="8" fill="#152238"/>
+    <circle cx="-149" cy="-9" r="3" fill="#FFFFFF"/>
+    <!-- 嘴 -->
+    <path d="M-186 12 Q-170 22 -160 14" stroke="#1E7FB4" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 葱姜丝 -->
+  <g stroke-linecap="round" fill="none">
+    <g stroke="#18C08A" stroke-width="6">
+      <path d="M180 196 q34 -12 66 2"/>
+      <path d="M268 176 q40 -10 74 4"/>
+      <path d="M380 190 q36 -12 68 0"/>
+    </g>
+    <g stroke="#FFC629" stroke-width="5">
+      <path d="M226 176 q30 -14 58 0"/>
+      <path d="M330 164 q34 -12 62 2"/>
+    </g>
+    <g stroke="#FF4D4D" stroke-width="7">
+      <path d="M258 200 l14 14"/><path d="M352 196 l14 14"/><path d="M430 208 l12 14"/>
+    </g>
+  </g>
+
+  <!-- 热气 -->
+  <g stroke="#FFFFFF" stroke-width="7" fill="none" stroke-linecap="round" opacity=".72">
+    <path d="M212 122 q-18 -26 4 -46 q20 -20 2 -44"/>
+    <path d="M320 104 q-18 -26 4 -46 q20 -20 2 -44"/>
+    <path d="M428 122 q-18 -26 4 -46 q20 -20 2 -44"/>
+  </g>
+
+  <!-- 筷子 -->
+  <g transform="translate(508,300) rotate(-24)">
+    <rect x="0" y="0" width="150" height="9" rx="4.5" fill="#C98A4B"/>
+    <rect x="0" y="18" width="150" height="9" rx="4.5" fill="#B3773C"/>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="西山吴王避暑宫与古城墙插画">
+  <defs>
+    <linearGradient id="w-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB87A"/>
+      <stop offset="60%" stop-color="#FFD9A8"/>
+      <stop offset="100%" stop-color="#F7F0E2"/>
+    </linearGradient>
+    <linearGradient id="w-hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2FBF87"/>
+      <stop offset="100%" stop-color="#0B7A57"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#w-sky)"/>
+  <circle cx="126" cy="86" r="42" fill="#FF8A2B" opacity=".85"/>
+  <circle cx="126" cy="86" r="64" fill="#FFC629" opacity=".22"/>
+
+  <g fill="#FFFFFF" opacity=".66">
+    <ellipse cx="420" cy="70" rx="56" ry="18"/>
+    <ellipse cx="456" cy="60" rx="36" ry="20"/>
+    <ellipse cx="540" cy="112" rx="42" ry="14"/>
+  </g>
+
+  <!-- 远山层叠 -->
+  <path d="M0 236 Q90 158 176 214 Q250 156 340 218 Q420 168 510 220 Q580 184 640 224 L640 268 L0 268 Z" fill="url(#w-hill)" opacity=".55"/>
+  <path d="M0 258 Q110 196 214 252 Q320 198 420 256 Q530 210 640 258 L640 300 L0 300 Z" fill="#0E8F66" opacity=".78"/>
+
+  <!-- 主山（西山） -->
+  <path d="M140 300 Q240 178 340 254 Q410 200 500 300 Z" fill="#0B7A57"/>
+  <path d="M176 300 Q258 206 336 264 Q396 220 470 300 Z" fill="#12A06C"/>
+
+  <!-- 山上宫殿群 -->
+  <g transform="translate(244,178)">
+    <rect x="0" y="46" width="126" height="44" rx="3" fill="#FFF6E4"/>
+    <rect x="0" y="46" width="126" height="11" fill="#EBD6B4"/>
+    <path d="M-20 48 L63 12 L146 48 Z" fill="#E23B3B"/>
+    <path d="M-8 48 L63 22 L134 48 Z" fill="#B62A2A" opacity=".5"/>
+    <g fill="#8B4A2B">
+      <rect x="14" y="62" width="16" height="28" rx="2"/>
+      <rect x="55" y="62" width="16" height="28" rx="2"/>
+      <rect x="96" y="62" width="16" height="28" rx="2"/>
+    </g>
+    <path d="M-20 48 Q-34 42 -29 32" stroke="#E23B3B" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M146 48 Q160 42 155 32" stroke="#E23B3B" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 塔（武昌楼意象） -->
+  <g transform="translate(408,150)">
+    <rect x="14" y="126" width="52" height="26" rx="3" fill="#FFF6E4"/>
+    <path d="M0 128 L40 112 L80 128 Z" fill="#FF8A2B"/>
+    <rect x="20" y="86" width="40" height="28" fill="#FFF6E4"/>
+    <path d="M6 88 L40 72 L74 88 Z" fill="#E23B3B"/>
+    <rect x="26" y="48" width="28" height="26" fill="#FFF6E4"/>
+    <path d="M12 50 L40 34 L68 50 Z" fill="#FF8A2B"/>
+    <rect x="31" y="16" width="18" height="20" fill="#FFF6E4"/>
+    <path d="M18 18 L40 4 L62 18 Z" fill="#E23B3B"/>
+    <rect x="37" y="-12" width="6" height="18" fill="#7A5CFF"/>
+    <circle cx="40" cy="-16" r="6" fill="#FFC629"/>
+  </g>
+
+  <!-- 城墙 -->
+  <g transform="translate(0,300)">
+    <rect x="0" y="18" width="640" height="54" fill="#C9A279"/>
+    <rect x="0" y="18" width="640" height="12" fill="#E0BE96"/>
+    <g fill="#A8835C">
+      <rect x="20" y="0" width="30" height="20"/><rect x="80" y="0" width="30" height="20"/>
+      <rect x="140" y="0" width="30" height="20"/><rect x="200" y="0" width="30" height="20"/>
+      <rect x="260" y="0" width="30" height="20"/><rect x="320" y="0" width="30" height="20"/>
+      <rect x="380" y="0" width="30" height="20"/><rect x="440" y="0" width="30" height="20"/>
+      <rect x="500" y="0" width="30" height="20"/><rect x="560" y="0" width="30" height="20"/>
+      <rect x="620" y="0" width="20" height="20"/>
+    </g>
+    <g fill="#8B6A4B" opacity=".55">
+      <rect x="0" y="40" width="640" height="4"/>
+      <rect x="60" y="30" width="4" height="26"/><rect x="180" y="30" width="4" height="26"/>
+      <rect x="300" y="30" width="4" height="26"/><rect x="420" y="30" width="4" height="26"/>
+      <rect x="540" y="30" width="4" height="26"/>
+    </g>
+    <path d="M286 72 L286 40 Q310 22 334 40 L334 72 Z" fill="#6B4E33"/>
+  </g>
+
+  <!-- 松树 -->
+  <g transform="translate(78,262)">
+    <rect x="-4" y="24" width="9" height="24" fill="#8B6A4B"/>
+    <path d="M0 -30 L26 12 L-26 12 Z" fill="#0B7A57"/>
+    <path d="M0 -6 L22 26 L-22 26 Z" fill="#12A06C"/>
+  </g>
+  <g transform="translate(560,268)">
+    <rect x="-4" y="20" width="9" height="22" fill="#8B6A4B"/>
+    <path d="M0 -26 L24 10 L-24 10 Z" fill="#0B7A57"/>
+    <path d="M0 -4 L20 24 L-20 24 Z" fill="#12A06C"/>
+  </g>
+
+  <!-- 飞鸟 -->
+  <g stroke="#8B4A2B" stroke-width="4" fill="none" stroke-linecap="round" opacity=".55">
+    <path d="M196 96 q11 -11 22 0 q11 -11 22 0"/>
+    <path d="M300 62 q9 -9 18 0 q9 -9 18 0"/>
+  </g>
+</svg>
