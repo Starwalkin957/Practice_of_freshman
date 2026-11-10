@@ -48,11 +48,11 @@
     </div>
 
     <!-- 观音阁 -->
-    <div class="split" style="margin-bottom:clamp(26px,4vw,46px)">
+    <div class="split clickable" data-detail="spots:0" data-detail-title="观音阁详情" style="margin-bottom:clamp(26px,4vw,46px)">
       <div>
         <figure class="card-art">
           <img src="../image/photo-guanyin-ge.jpg" alt="观音阁实景照片：立于长江江心龙蟠矶之上的古阁">
-          <figcaption>长江江心龙蟠矶上的观音阁 · 图源：公开图片检索（出处未确认）</figcaption>
+          <figcaption>长江江心龙蟠矶上的观音阁</figcaption>
         </figure>
       </div>
       <div>
@@ -82,11 +82,11 @@
     </div>
 
     <!-- 西山 -->
-    <div class="split rev" style="margin-bottom:clamp(26px,4vw,46px)">
+    <div class="split rev clickable" data-detail="spots:1" data-detail-title="西山风景区详情" style="margin-bottom:clamp(26px,4vw,46px)">
       <div>
         <figure class="card-art">
           <img src="../image/photo-xishan.jpg" alt="西山风景区实景照片：山上古建筑与远处鄂州城景、长江">
-          <figcaption>西山古建筑俯瞰江城 · 图源：公开图片检索（出处未确认）</figcaption>
+          <figcaption>西山古建筑俯瞰江城</figcaption>
         </figure>
       </div>
       <div>
@@ -119,11 +119,11 @@
     </div>
 
     <!-- 梁子湖 -->
-    <div class="split">
+    <div class="split clickable" data-detail="spots:2" data-detail-title="梁子湖详情">
       <div>
         <figure class="card-art">
           <img src="../image/photo-liangzi-sunset.jpg" alt="梁子湖实景照片：黄昏时分湿地湖面航拍，水草与云影倒映">
-          <figcaption>梁子湖湿地黄昏航拍 · 图源：公开图片检索（出处未确认）</figcaption>
+          <figcaption>梁子湖湿地黄昏航拍</figcaption>
         </figure>
       </div>
       <div>
@@ -165,10 +165,10 @@
       <p>除了上面三个，鄂州这几年还新开了不少好玩的地方，周末遛娃、拍照、露营都很合适。</p>
     </div>
     <div class="grid g3">
-      <div class="card t-orange">
+      <div class="card t-orange clickable" data-detail="spots:4" data-detail-title="灵玲野生动物王国详情">
         <figure class="card-art">
           <img src="../image/photo-zoo.jpg" alt="鄂州灵玲野生动物王国实景照片：园区大门与开园人群">
-          <figcaption>灵玲野生动物王国大门 · 图源：极目新闻</figcaption>
+          <figcaption>灵玲野生动物王国大门</figcaption>
         </figure>
         <h3>灵玲野生动物王国</h3>
         <p>
@@ -181,7 +181,7 @@
           <li><span class="tag">夜游</span></li>
         </ul>
       </div>
-      <div class="card t-green">
+      <div class="card t-green clickable" data-detail="spots:5" data-detail-title="鄂州园博园详情">
         <div class="dot g">园</div>
         <h3>鄂州园博园</h3>
         <p>
@@ -193,7 +193,7 @@
           <li><span class="tag">新开</span></li>
         </ul>
       </div>
-      <div class="card t-purple">
+      <div class="card t-purple clickable" data-detail="spots:3" data-detail-title="吴王城遗址详情">
         <div class="dot p">遗</div>
         <h3>吴王城遗址</h3>
         <p>
@@ -206,7 +206,7 @@
           <li><span class="tag">三国迷必去</span></li>
         </ul>
       </div>
-      <div class="card t-blue">
+      <div class="card t-blue clickable" data-detail="spots:7" data-detail-title="鄂州博物馆详情">
         <div class="dot">馆</div>
         <h3>鄂州博物馆</h3>
         <p>
@@ -219,7 +219,7 @@
           <li><span class="tag g">行程起点</span></li>
         </ul>
       </div>
-      <div class="card t-yellow">
+      <div class="card t-yellow clickable" data-detail="spots:6" data-detail-title="峒山旅游景区详情">
         <div class="dot o">峒</div>
         <h3>峒山旅游景区</h3>
         <p>
@@ -330,6 +330,8 @@
   </div>
 </footer>
 
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
 <script>
 /* SECTION: script */
 (function () {

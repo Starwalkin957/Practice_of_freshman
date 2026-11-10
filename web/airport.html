@@ -67,9 +67,9 @@
     <div>
       <figure class="card-art">
         <img src="../image/photo-airport-dusk.jpg" alt="花湖国际机场实景照片：黄昏时分停机坪上的货运航班">
-        <figcaption>黄昏的花湖国际机场与停机坪货机 · 图源：极目新闻</figcaption>
+        <figcaption>黄昏的花湖国际机场与停机坪货机</figcaption>
       </figure>
-      <div class="card t-purple">
+      <div class="card t-purple clickable" data-detail="airport:3" data-detail-title="工字形转运中心详情">
         <h3>"工"字形转运中心</h3>
         <p>
           机场内的"工"字形转运中心里，超 2 万台分拣设备自动运行。
@@ -122,7 +122,7 @@
     </div>
 
     <div class="grid g3">
-      <div class="card t-orange">
+      <div class="card t-orange clickable" data-detail="airport:0" data-detail-title="全球增速冠军详情">
         <div class="dot o">🏆</div>
         <h3>全球增速"冠军"</h3>
         <p>
@@ -134,7 +134,7 @@
           含金量在于：它是在百万吨级阵营里实现超 30% 的爆发式增长。
         </p>
       </div>
-      <div class="card t-green">
+      <div class="card t-green clickable" data-detail="airport:1" data-detail-title="国际航班破万架次详情">
         <div class="dot g">✈️</div>
         <h3>国际航班破万架次</h3>
         <p>
@@ -145,7 +145,7 @@
           对比：前年 997 架次 → 去年 6975 架次 → 今年迈入"万架次俱乐部"。
         </p>
       </div>
-      <div class="card t-purple">
+      <div class="card t-purple clickable" data-detail="airport:2" data-detail-title="20 家国际航司详情">
         <div class="dot p">🌍</div>
         <h3>20 家国际航司入驻</h3>
         <p>
@@ -200,7 +200,7 @@
       </ul>
     </div>
     <div>
-      <div class="card t-pink" style="margin-bottom:18px">
+      <div class="card t-pink clickable" data-detail="airport:4" data-detail-title="双枢纽战略详情" style="margin-bottom:18px">
         <h3>"双枢纽"是什么？</h3>
         <p>
           湖北省推进武汉天河机场、鄂州花湖机场"双枢纽"战略：
@@ -211,7 +211,7 @@
           花湖还与香港国际机场开展"双枢纽"合作，开通每日"日日达"航班，高效保障高附加值货物中转。
         </p>
       </div>
-      <div class="card t-yellow" style="margin-bottom:18px">
+      <div class="card t-yellow clickable" data-detail="airport:5" data-detail-title="特色航线详情" style="margin-bottom:18px">
         <h3>有意思的特色航线</h3>
         <ul style="color:var(--ink-2);font-size:.93rem;margin-bottom:0">
           <li><strong>牛羊肉航线</strong>——春节物流高峰期，从西北地区密集飞往鄂州</li>
@@ -220,7 +220,7 @@
           <li><strong>三文鱼</strong>——从挪威起飞，48 小时就能抵达中国消费者餐桌</li>
         </ul>
       </div>
-      <div class="card t-blue">
+      <div class="card t-blue clickable" data-detail="airport:6" data-detail-title="文物跨境运输详情">
         <h3>连文物都能运</h3>
         <p style="margin-bottom:0">
           2026 年 10 月 19 日凌晨，一架装载国际文物珍品的全货机从花湖起飞，直达法国巴黎戴高乐国际机场。
@@ -242,7 +242,7 @@
       <p>作为本地人，我能感受到的变化是很具体的。</p>
     </div>
     <div class="grid g3">
-      <div class="card t-green">
+      <div class="card t-green clickable" data-detail="airport:7" data-detail-title="快递与特产出山详情">
         <div class="dot g">📦</div>
         <h3>快递 faster，特产出山</h3>
         <p>
@@ -251,7 +251,7 @@
           而那第 2 亿件快件，正是沙窝乡胡桥村豆丝加工专业户寄往福建和江苏的 6 箱沙窝豆丝。
         </p>
       </div>
-      <div class="card t-orange">
+      <div class="card t-orange clickable" data-detail="airport:8" data-detail-title="进出口增速详情">
         <div class="dot o">📈</div>
         <h3>进出口增速全省第一</h3>
         <p>
@@ -260,7 +260,7 @@
           顺丰、DHL 等物流巨头持续加密航班。
         </p>
       </div>
-      <div class="card t-purple">
+      <div class="card t-purple clickable" data-detail="airport:9" data-detail-title="年轻人返乡详情">
         <div class="dot p">🧑‍💼</div>
         <h3>年轻人愿意回来</h3>
         <p>
@@ -327,6 +327,8 @@
   </div>
 </footer>
 
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
 <script>
 /* SECTION: script */
 (function () {

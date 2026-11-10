@@ -70,7 +70,7 @@
     <div>
       <figure class="card-art">
         <img src="../image/photo-bridge-deck.jpg" alt="鄂州长江大桥实景照片：沿桥面航拍，红色桥塔与悬索">
-        <figcaption>鄂州长江大桥沿桥面航拍 · 图源：公开图片检索（出处未确认）</figcaption>
+        <figcaption>鄂州长江大桥沿桥面航拍</figcaption>
       </figure>
       <div class="card t-blue">
         <h3>为什么它这么重要？</h3>
@@ -92,7 +92,7 @@
       <p>鄂州下辖鄂城区、华容区、梁子湖区 3 个县级行政区，以及国家级葛店经济技术开发区、省级临空经济区 2 个功能区。</p>
     </div>
     <div class="grid g3">
-      <div class="card t-orange">
+      <div class="card t-orange clickable" data-detail="districts:0" data-detail-title="鄂城区详情">
         <div class="dot o">鄂</div>
         <h3>鄂城区</h3>
         <p>市人民政府驻地，也是鄂州的老城区。吴王城遗址、观音阁、西山风景区都在这里，是"吴都文化"的核心承载地。</p>
@@ -101,7 +101,7 @@
           <li><span class="tag">吴都古城</span></li>
         </ul>
       </div>
-      <div class="card t-green">
+      <div class="card t-green clickable" data-detail="districts:1" data-detail-title="华容区详情">
         <div class="dot g">华</div>
         <h3>华容区</h3>
         <p>位于鄂州西部，紧邻武汉，是武鄂同城化的前沿地带。辖华容镇、庙岭镇、段店镇、临江乡、蒲团乡等。</p>
@@ -110,7 +110,7 @@
           <li><span class="tag">红莲湖</span></li>
         </ul>
       </div>
-      <div class="card t-blue">
+      <div class="card t-blue clickable" data-detail="districts:2" data-detail-title="梁子湖区详情">
         <div class="dot">梁</div>
         <h3>梁子湖区</h3>
         <p>因湖得名，坐拥湖北省第二大淡水湖梁子湖，是武昌鱼的母亲湖所在地。辖太和、东沟、梁子、涂家垴、沼山等镇。</p>
@@ -119,7 +119,7 @@
           <li><span class="tag p">武昌鱼故乡</span></li>
         </ul>
       </div>
-      <div class="card t-purple">
+      <div class="card t-purple clickable" data-detail="districts:3" data-detail-title="葛店经开区详情">
         <div class="dot p">葛</div>
         <h3>葛店经济技术开发区</h3>
         <p>国家级经济技术开发区，紧邻武汉东湖高新区（光谷），是鄂州工业与高新技术产业的主阵地之一。</p>
@@ -128,7 +128,7 @@
           <li><span class="tag">高新产业</span></li>
         </ul>
       </div>
-      <div class="card t-pink">
+      <div class="card t-pink clickable" data-detail="districts:4" data-detail-title="临空经济区详情">
         <div class="dot p">临</div>
         <h3>临空经济区</h3>
         <p>围绕花湖国际机场布局，驻地燕矶镇。机场带来的航空物流、跨境电商、生鲜冷链等产业在这里聚集。</p>
@@ -199,15 +199,15 @@
     </div>
 
     <div class="grid g3">
-      <div class="card t-green">
+      <div class="card t-green clickable" data-detail="economy:3" data-detail-title="人均 GDP 与全省排名详情">
         <h3>三个"全省前列"</h3>
         <p>工业化率全省第一，城镇化率全省第二，人均 GDP 全省第三（突破 12.5 万元，约为全国平均水平的 1.3 倍）。</p>
       </div>
-      <div class="card t-orange">
+      <div class="card t-orange clickable" data-detail="airport:8" data-detail-title="进出口增速详情">
         <h3>进出口增速领跑</h3>
         <p>2025 年鄂州进出口总额同比增长 414.6%，增速居湖北省首位——这背后几乎全是花湖机场带来的航空货运。</p>
       </div>
-      <div class="card t-pink">
+      <div class="card t-pink clickable" data-detail="economy:1" data-detail-title="经济与农业数据详情">
         <h3>农业也不弱</h3>
         <p>2025 年粮食总产量 25.76 万吨，蔬菜产量 114.37 万吨。梁子湖的水产品更是全国有名。</p>
       </div>
@@ -290,6 +290,8 @@
   </div>
 </footer>
 
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
 <script>
 /* SECTION: script */
 (function () {

@@ -86,31 +86,31 @@
     <div class="split" style="align-items:flex-start">
       <div>
         <ul class="timeline">
-          <li>
+          <li class="clickable" data-detail="history:0" data-detail-title="帝尧时期 · 樊国 详情" tabindex="0" role="button">
             <div class="yr">帝尧时期 · 樊国</div>
             <p>史载鄂州在帝尧时为"樊国"，夏时为"鄂都"，殷商时为"鄂国"，是长江中游较早的方国之一。</p>
           </li>
-          <li>
+          <li class="clickable" data-detail="history:1" data-detail-title="春秋战国 · 鄂王城 详情" tabindex="0" role="button">
             <div class="yr">春秋战国 · 鄂王城</div>
             <p>楚王熊渠分封其子熊红到此为鄂王，修筑鄂王城。湖北简称"鄂"即由此而来。秦统一后置鄂县。</p>
           </li>
-          <li>
+          <li class="clickable" data-detail="history:2" data-detail-title="公元 221 年 · 改名武昌 详情" tabindex="0" role="button">
             <div class="yr">公元 221 年 · 改名武昌</div>
             <p>孙权自公安迁都鄂县，在西山东麓营建吴王城，取"以武而昌"之意改鄂县为武昌，并受封吴王。同年八月开始"城武昌"。</p>
           </li>
-          <li>
+          <li class="clickable" data-detail="history:3" data-detail-title="公元 229 年 · 称帝建都 详情" tabindex="0" role="button">
             <div class="yr">公元 229 年 · 称帝建都</div>
             <p>孙权在武昌筑郊坛告天称帝，武昌成为东吴第一个正式都城。此后吴国两度建都武昌、三次营建武昌城，历时近 60 年。</p>
           </li>
-          <li>
+          <li class="clickable" data-detail="history:4" data-detail-title="元 · 至元十七年（1280） 详情" tabindex="0" role="button">
             <div class="yr">元 · 至元十七年（1280）</div>
             <p>观音阁始建，立于长江中的龙蟠矶之上，坐东朝西、逆水而立，后世誉为"万里长江第一阁"。</p>
           </li>
-          <li>
+          <li class="clickable" data-detail="history:5" data-detail-title="1949 — 1983 · 建市 详情" tabindex="0" role="button">
             <div class="yr">1949 — 1983 · 建市</div>
             <p>1949 年 5 月 14 日鄂城解放。1983 年撤销鄂城市、鄂城县，将黄冈县黄州镇并入，合并成立省辖鄂州市。</p>
           </li>
-          <li>
+          <li class="clickable" data-detail="history:6" data-detail-title="2022 — 至今 · 空港时代 详情" tabindex="0" role="button">
             <div class="yr">2022 — 至今 · 空港时代</div>
             <p>7 月 17 日，鄂州花湖机场正式投运，成为我国首个、亚洲首个专业货运枢纽机场。2024 年 3 月经国务院批复对外开放，鄂州进入"空港时代"。</p>
           </li>
@@ -149,22 +149,22 @@
       <p>鄂州不只有孙权。历代名士或讲经布道，或游历隐居，在这里留下了大量诗文与遗迹。</p>
     </div>
     <div class="grid g4">
-      <div class="card t-blue">
+      <div class="card t-blue clickable" data-detail="people:0" data-detail-title="慧远详情">
         <div class="dot">慧远</div>
         <h3>东晋高僧</h3>
         <p>在西山创建古灵泉寺，为佛教净土宗的发祥地奠定基础。西山至今仍有相关参禅遗迹。</p>
       </div>
-      <div class="card t-green">
+      <div class="card t-green clickable" data-detail="people:1" data-detail-title="岳飞详情">
         <div class="dot g">岳飞</div>
         <h3>抗金名将</h3>
         <p>曾在此驻军练兵。鄂州地处江防要冲，历来是兵家必争之地。</p>
       </div>
-      <div class="card t-orange">
+      <div class="card t-orange clickable" data-detail="people:2" data-detail-title="苏轼详情">
         <div class="dot o">苏轼</div>
         <h3>宋代文豪</h3>
         <p>多次游历西山并题写《武昌西山》诗作。西山的九曲亭由其弟苏辙命名，另有试剑石、松风阁、洗墨池等遗迹。</p>
       </div>
-      <div class="card t-pink">
+      <div class="card t-pink clickable" data-detail="people:3" data-detail-title="更多名士详情">
         <div class="dot p">更多名士</div>
         <h3>群星璀璨</h3>
         <p>陶侃、李白、欧阳修、王安石、陆游、彭玉麟、张之洞等，都曾在鄂州留下踪迹与吟咏。</p>
@@ -197,7 +197,7 @@
     <div>
       <figure class="card-art">
         <img src="../image/photo-xishan.jpg" alt="西山风景区实景照片：山上古建筑与远处鄂州城景、长江">
-        <figcaption>西山古建筑俯瞰江城 · 图源：公开图片检索（出处未确认）</figcaption>
+        <figcaption>西山古建筑俯瞰江城</figcaption>
       </figure>
     </div>
     <div>
@@ -263,6 +263,8 @@
   </div>
 </footer>
 
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
 <script>
 /* SECTION: script */
 (function () {
