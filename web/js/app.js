@@ -27,8 +27,11 @@
     var i = document.createElement('img');
     if (cls) { i.className = cls; }
     i.alt = alt || '';
-    i.loading = 'lazy';
-    i.decoding = 'async';
+    // 弹窗/灯箱是用户主动打开的即时内容，必须立即加载。
+    // 若用 loading='lazy'，图片刚插入 DOM 时浏览器可能尚未判定其进入视口，
+    // 会导致弹窗内配图长时间空白，故此处显式使用 eager。
+    i.loading = 'eager';
+    i.decoding = 'sync';
     // 属性赋值注入 src，不经模板拼接
     i.src = src;
     return i;
